@@ -12,4 +12,4 @@ You will also see any lint errors in the console.
 
 ## View Website
 
-placeholder
+https://linyao7.github.io/product-ui-template/

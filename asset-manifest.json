@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.4805c423.css",
-    "main.js": "/static/js/main.5fa22977.js",
-    "static/js/787.9aac3404.chunk.js": "/static/js/787.9aac3404.chunk.js",
-    "static/media/ai.png": "/static/media/ai.aa60586ba1ba53762d94.png",
-    "static/media/possibility.png": "/static/media/possibility.525f13b61a2157d44de0.png",
-    "static/media/blog01.png": "/static/media/blog01.cefc0932eae0d33a0342.png",
-    "static/media/blog03.png": "/static/media/blog03.d922323861096f25274f.png",
-    "static/media/blog04.png": "/static/media/blog04.742c1357e7b6c11078e6.png",
-    "static/media/blog05.png": "/static/media/blog05.bfaa1c1e3851158e0e1f.png",
-    "static/media/blog02.png": "/static/media/blog02.ab0eb367561796e91532.png",
-    "static/media/people.png": "/static/media/people.5cd2d6fbcd48bd63f106.png",
-    "index.html": "/index.html",
-    "main.4805c423.css.map": "/static/css/main.4805c423.css.map",
-    "main.5fa22977.js.map": "/static/js/main.5fa22977.js.map",
-    "787.9aac3404.chunk.js.map": "/static/js/787.9aac3404.chunk.js.map"
+    "main.css": "/product-ui-template/static/css/main.4805c423.css",
+    "main.js": "/product-ui-template/static/js/main.b2d4e972.js",
+    "static/js/787.9aac3404.chunk.js": "/product-ui-template/static/js/787.9aac3404.chunk.js",
+    "static/media/ai.png": "/product-ui-template/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/possibility.png": "/product-ui-template/static/media/possibility.525f13b61a2157d44de0.png",
+    "static/media/blog01.png": "/product-ui-template/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/blog03.png": "/product-ui-template/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/product-ui-template/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/product-ui-template/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/product-ui-template/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/people.png": "/product-ui-template/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/product-ui-template/index.html",
+    "main.4805c423.css.map": "/product-ui-template/static/css/main.4805c423.css.map",
+    "main.b2d4e972.js.map": "/product-ui-template/static/js/main.b2d4e972.js.map",
+    "787.9aac3404.chunk.js.map": "/product-ui-template/static/js/787.9aac3404.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4805c423.css",
-    "static/js/main.5fa22977.js"
+    "static/js/main.b2d4e972.js"
   ]
 }

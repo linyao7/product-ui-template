@@ -1,0 +1,40 @@
+name: Staging Build and Deploy
+
+on:
+  push:
+    branches: [main, 'release/**', 'feature/**']
+
+jobs:
+  build:
+    name: Build Product UI Template
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # Cache dependencies
+      #       - name: Cache node dependencies
+      #         id: yarn-cache
+      #         uses: actions/cache@v2
+      #         with:
+      #           path: |
+      #             **/node_modules
+      #           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Install dependencies
+        #         if: steps.yarn-cache.outputs.cache-hit != 'true'
+        run: |
+          npm cache clean --force
+          npm ci --network-concurrency 1 --network-timeout 100000
+
+      - name: Build distribution files and assets
+        run: npm run build
+        env:
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: dist
+          repository-name: linyao7/product-ui-template
+          ssh-key: ${{ secrets.STAGING_DEPLOY_KEY }}
